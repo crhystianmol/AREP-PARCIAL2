@@ -2,7 +2,7 @@ package edu.escuelaing.arep;
 
 import java.lang.Math.*;
 /**
- * Clase encargada de realizar las operaciones necesarias para calcular arcotangente y logaritmo.
+ * Clase encargada de realizar las operaciones necesarias para calcular arcotangente y el seno.
 
  */
 public class Calculador {
@@ -15,7 +15,7 @@ public class Calculador {
         return Math.atan(number);
     }
     /**
-     * Metodo encargado de realizar las operaciones necesarias para calcular el logaritmo del valor ingresado.
+     * Metodo encargado de realizar las operaciones necesarias para calcular el seno del valor ingresado.
      * @param number Parametro que indica el numero ingresado con el que se van a realizar las operaciones.
      * @return Retorna el numero luego de realizar los respectivos calculos.
      */

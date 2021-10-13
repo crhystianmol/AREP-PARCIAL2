@@ -7,6 +7,7 @@ import static spark.Spark.*;
 /**
  * Clase principal encargada de llevar a cabo la ejecucion de todo el programa.
  */
+
 public class App {
     private static Calculador calcular = new Calculador();
 
@@ -29,6 +30,7 @@ public class App {
         obj.put("output",(operation.equals("atan"))? calcular.arcTangent(number) : calcular.sen(number));
         return obj;
     }
+
 
     static int getPort() {
         if (System.getenv("PORT") != null) {

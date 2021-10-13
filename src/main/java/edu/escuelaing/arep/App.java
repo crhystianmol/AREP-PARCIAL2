@@ -34,6 +34,6 @@ public class App {
         if (System.getenv("PORT") != null) {
             return Integer.parseInt(System.getenv("PORT"));
         }
-        return 3456;
+        return 8085;
     }
 }

@@ -1,10 +1,11 @@
 # PARCIAL 2 AREP
 ## imagenes
 
-![](./img/image1.png)
+![](./img/imagen1.png)
 
-![](./img/image2.png)
+![](./img/imagen2.png)
 
-![](./img/image3.png)
+![](./img/imagen3.png)
 
-![](./img/image4.png)
+![](./img/imagen4.png)
+docker activos aws=(firstdockerimageaws)

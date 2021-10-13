@@ -1,7 +1,7 @@
 # PARCIAL 2 AREP
 ## imagenes
 
-![](./img/1.jpg)
+![](./img/imagen1.png)
 
 ![](./img/imagen2.png)
 

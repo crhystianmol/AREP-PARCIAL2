@@ -13,7 +13,7 @@ public class App {
     public static void main(String[] args) {
         port(getPort());
         get("/atan", (req, res) -> inputDataPage(req, res,"atan"));
-        get("/log", (req, res) -> inputDataPage(req, res,"log"));
+        get("/sen", (req, res) -> inputDataPage(req, res,"sen"));
     }
     /**
      * @param req Parametro que se encarga de almacenar la informacion de la peticion.
@@ -26,7 +26,7 @@ public class App {
         JSONObject obj = new JSONObject();
         obj.put("operation",operation);
         obj.put("input",number);
-        obj.put("output",(operation.equals("atan"))? calcular.arcTangent(number) : calcular.logarithm(number));
+        obj.put("output",(operation.equals("atan"))? calcular.arcTangent(number) : calcular.sen(number));
         return obj;
     }
 

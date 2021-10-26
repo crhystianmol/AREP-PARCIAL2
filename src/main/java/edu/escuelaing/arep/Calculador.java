@@ -19,7 +19,7 @@ public class Calculador {
      * @param number Parametro que indica el numero ingresado con el que se van a realizar las operaciones.
      * @return Retorna el numero luego de realizar los respectivos calculos.
      */
-    public double logarithm(double number){
-        return Math.log(number);
+    public double sen(double number){
+        return Math.sin(number);
     }
 }
